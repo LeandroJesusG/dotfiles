@@ -39,3 +39,18 @@ Plugin 'jiangmiao/auto-pairs'
 
 call vundle#end()
 filetype plugin indent on
+
+set mapleader=","
+
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+
+command NT NERDTree
+nmap <Leader>nt :NERDTreeToggle<cr>
+nmap <F8> :TagbarToggle<CR>
+:let g:NERDTreeWinSize=20
+:let g:tagbar_wigth=20
+
