@@ -40,7 +40,7 @@ Plugin 'jiangmiao/auto-pairs'
 call vundle#end()
 filetype plugin indent on
 
-set mapleader=","
+let mapleader=","
 
 map <C-h> <C-w>h
 map <C-j> <C-w>j
